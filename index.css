@@ -1,0 +1,42 @@
+body{
+        background-color: rgb(200, 200, 200);
+        color: black;
+        text-align: center;
+        padding-top: 200px;
+      }
+      #increment-id{
+        padding: 10px 20px ;
+        border-radius: 4px;
+        border:none;
+        background-color: rgb(50, 50 , 100);
+        transition: 0.05s;
+        color: white;
+      }
+      #increment-id:active{
+        padding: 10px 20px ;
+        border-radius: 8px;
+        border:none;
+        color: rgb(100, 100 , 200);
+        background-color: white;
+        transition: 0.05s;
+      }     
+      #increment-el{
+        transition: 0.15s;
+      }
+      #save-btn{
+        padding: 5px 10px ;
+        border-radius: 4px;
+        border:none;
+        background-color: rgb(100, 100 , 200);
+        transition: 0.05s;
+        color: white;
+}
+      #save-btn:active{
+        padding: 5px 10px ;
+        border-radius: 4px;
+        border:none;
+        background-color: white;
+        transition: 0.05s;
+        color: rgb(100, 100 , 200);
+}
+        
