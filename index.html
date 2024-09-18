@@ -1,17 +1,29 @@
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport"            content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <div class="container">
-        <h1>people counter</h1>
-        <h2 id="increment-el">0</h2>
+    <div class="container">
+      <div class="container2">
+       <h1>people counter</h1>
+       <div class="button-div">
+        <div class="incre-div">
+        <h2 id="count-el">0</h2>
         <button id="increment-id"          onclick="increment()">
            increment</button>
-        <br><br><br>
-        <button id="save-btn" onclick="save()">
-        save</button>
         </div>
+        <br><br><br>
+        <div class="save-div">
+        <button id="save-btn" onclick="save()">
+        save </button>
+        <p id="save-el">Previous entries: </p>
+        </div>
+       </div>
+     </div>  
+    </div>
         <script src="index.js">
         </script>
     </body>
