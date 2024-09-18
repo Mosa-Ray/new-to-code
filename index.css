@@ -3,17 +3,41 @@ body{
         color: black;
         text-align: center;
         padding-top: 200px;
+        text-size:minmax(40px)
       }
+      .container{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+      }
+      .container2{
+        
+        
+      }
+      .button-div{
+        display: grid;
+        grid-template-columns: auto;
+      }
+      .save-div{
+        
+      }
+      .incre-div{
+        
+      }
+      
+      
       #increment-id{
-        padding: 10px 20px ;
+        padding: 20px 30px ;
         border-radius: 4px;
         border:none;
+        font-size: 40px;
         background-color: rgb(50, 50 , 100);
         transition: 0.05s;
         color: white;
       }
       #increment-id:active{
-        padding: 10px 20px ;
+        padding: 20px 30px ;
         border-radius: 8px;
         border:none;
         color: rgb(100, 100 , 200);
@@ -22,21 +46,26 @@ body{
       }     
       #increment-el{
         transition: 0.15s;
+        font-size: 20px;
       }
       #save-btn{
-        padding: 5px 10px ;
+        padding: 20px 30px ;
         border-radius: 4px;
         border:none;
+        font-size: 30px;
         background-color: rgb(100, 100 , 200);
         transition: 0.05s;
         color: white;
 }
       #save-btn:active{
-        padding: 5px 10px ;
+        padding: 20px 30px ;
         border-radius: 4px;
         border:none;
         background-color: white;
         transition: 0.05s;
         color: rgb(100, 100 , 200);
 }
-        
+
+       #save-el{
+         font-size: 26px bold;
+       }
